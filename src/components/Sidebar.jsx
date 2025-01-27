@@ -25,7 +25,7 @@ function Sidebar() {
       </Toolbar>
       <List>
         {/* Dashboard Link */}
-        <ListItemButton component={Link} to="/dashboard">
+        <ListItemButton component={Link} to="/Dashboard">
           <ListItemIcon><DashboardIcon /></ListItemIcon>
           <ListItemText primary="Dashboard" />
         </ListItemButton>
