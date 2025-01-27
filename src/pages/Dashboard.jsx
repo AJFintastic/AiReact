@@ -14,8 +14,6 @@ import {
   TableRow,
 } from '@mui/material';
 
-import Sidebar from '../components/Sidebar';
-import Topbar from '../components/Topbar';
 import { Bar } from 'react-chartjs-2';
 import 'chart.js/auto';
 
