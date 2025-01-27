@@ -1,0 +1,188 @@
+/* ========== GLOBAL LAYOUT ========== */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffffcc;
+  backdrop-filter: blur(4px);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.navbar-links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+  color: #0056b3;
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: auto; /* pushes footer to bottom if content is short */
+  border-top: 1px solid #ddd;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.footer a {
+  color: #555;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+/* ========== HOME PAGE ========== */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.hero-cta {
+  background-color: #00b4d8;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Who We Are */
+.who-we-are {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* ========== SERVICES ========== */
+.services-section {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 2rem;
+}
+
+.services-section h2 {
+  margin-bottom: 1rem;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  flex: 1 1 180px;
+  min-width: 180px;
+  max-width: 220px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* ========== DATA VIZ ========== */
+.dataviz-section {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+/* ========== ABOUT PAGE ========== */
+.about-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.about-page section {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
+
+.about-page h1,
+.about-page h2 {
+  margin-top: 0;
+}
+
+.about-page ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+.cta-section {
+  text-align: center;
+  background: #f0fbff;
+  border: 1px solid #cceeff;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
