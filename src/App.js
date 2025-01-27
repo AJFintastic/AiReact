@@ -10,6 +10,7 @@ import About from './pages/About';
 import Analytics from './pages/Analytics';
 import Products from './pages/Products';   // new
 import ProductDetail from './pages/ProductDetail'; // new
+import Dashboard from './pages/Dashboard';
 
 
 // Optionally customize Material UI's theme (colors, typography, etc.)
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/analytics" element={<Analytics />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/:id" element={<ProductDetail />} />
         </Routes>
